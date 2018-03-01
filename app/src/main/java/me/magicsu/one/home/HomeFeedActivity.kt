@@ -3,8 +3,10 @@ package me.magicsu.one.home
 import android.os.Bundle
 import android.support.v7.widget.Toolbar
 import com.example.android.architecture.blueprints.todoapp.util.replaceFragmentInActivity
+import com.example.android.architecture.blueprints.todoapp.util.toast
 import me.magicsu.one.BaseActivity
 import me.magicsu.one.R
+import me.magicsu.one.util.DeviceUtils
 
 class HomeFeedActivity : BaseActivity() {
 
@@ -22,5 +24,7 @@ class HomeFeedActivity : BaseActivity() {
                 ?: HomeFeedFragment.newInstance().also {
                     replaceFragmentInActivity(it, R.id.contentFrame)
                 }
+
+        toast(DeviceUtils.getDeviceUniqueId(this))
     }
 }
