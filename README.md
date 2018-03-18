@@ -1,8 +1,6 @@
 # kotlin-android-one-day-up
 
-<div style="align: center">
-<img src="https://note.youdao.com/yws/public/resource/7e07730b72cbbbf9f03043711999a76c/xmlnote/E0D63811A2734661863951D77AA04C96/4601"/>
-</div>
+![](https://note.youdao.com/yws/public/resource/7e07730b72cbbbf9f03043711999a76c/xmlnote/E0D63811A2734661863951D77AA04C96/4601)
 
 >一个短视频推荐应用，每日会定时收到一条精选短视频推荐推送。应用基于Kotlin开发，项目中使用了较多Kotlin语法糖及新特性，帮助大家快速熟悉Kotlin在Android中的开发。
 
